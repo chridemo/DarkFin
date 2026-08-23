@@ -65,7 +65,7 @@
   z-index: 10;
 }
 
-.headerLeft .pageTitle {
+#reactRoot .headerLeft .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
   background-image: url("https://cdn.jsdelivr.net/gh/chridemo/DarkFin@main/Theme/assets/img/darkfin-logo.png") !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
