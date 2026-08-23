@@ -66,7 +66,7 @@
 }
 
 .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
+  flex-shrink: 0 !important;
   width: 190px !important;
   height: 55px !important;
-  overflow: visible !important;
 }
