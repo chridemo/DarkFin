@@ -51,22 +51,6 @@
   background: rgba(10, 10, 10, 0.75) !important;
 }
 
-/* Logo in alto a sinistra 
-#loginPage::before {
-  content: "DARKFIN";
-  position: absolute;
-  top: 1.5em;
-  left: 1.5em;
-  font-size: 1.75em;
-  font-weight: 800;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #e50914;
-  text-shadow: 0 0 12px rgba(229, 9, 20, 0.5);
-  z-index: 10;
-}
-*/
-
 #loginPage::before {
   content: "";
   position: absolute;
@@ -79,4 +63,13 @@
   background-repeat: no-repeat;
   background-position: left center;
   z-index: 10;
+}
+
+.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
+  background-image: url("https://cdn.jsdelivr.net/gh/chridemo/DarkFin@main/Theme/assets/img/darkfin-logo.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  width: 140px !important;
+  height: 40px !important;
 }
