@@ -65,20 +65,7 @@
   z-index: 10;
 }
 
-/* Nascondi completamente il logo nativo di Jellyfin 
-#reactRoot .headerLeft .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
-  background-image: none !important;
-}
-
-Aggiungi il tuo logo come elemento indipendente, sganciato dalla proprietà in conflitto
 .headerLeft .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
-  content: "";
-  display: block;
-  width: 140px;
-  height: 40px;
-  background-image: url("https://cdn.jsdelivr.net/gh/chridemo/DarkFin@main/Theme/assets/img/darkfin-logo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left center;
+  width: 190px;   /* era 140px */
+  height: 55px;   /* era 40px */
 }
-*/
