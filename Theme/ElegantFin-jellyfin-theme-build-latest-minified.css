@@ -65,11 +65,9 @@
   z-index: 10;
 }
 
-.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
+.headerLeft .pageTitle {
   background-image: url("https://cdn.jsdelivr.net/gh/chridemo/DarkFin@main/Theme/assets/img/darkfin-logo.png") !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: left center !important;
-  width: 140px !important;
-  height: 40px !important;
 }
