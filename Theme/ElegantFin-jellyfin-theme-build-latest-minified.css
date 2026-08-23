@@ -65,7 +65,8 @@
   z-index: 10;
 }
 
-.headerLeft .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
-  width: 190px;   /* era 140px */
-  height: 55px;   /* era 40px */
+.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
+  width: 190px !important;
+  height: 55px !important;
+  overflow: visible !important;
 }
