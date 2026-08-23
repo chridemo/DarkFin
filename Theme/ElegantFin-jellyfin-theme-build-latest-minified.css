@@ -65,12 +65,12 @@
   z-index: 10;
 }
 
-/* Nascondi completamente il logo nativo di Jellyfin */
+/* Nascondi completamente il logo nativo di Jellyfin 
 #reactRoot .headerLeft .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
   background-image: none !important;
 }
 
-/* Aggiungi il tuo logo come elemento indipendente, sganciato dalla proprietà in conflitto */
+Aggiungi il tuo logo come elemento indipendente, sganciato dalla proprietà in conflitto
 .headerLeft .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
   content: "";
   display: block;
@@ -81,3 +81,4 @@
   background-repeat: no-repeat;
   background-position: left center;
 }
+*/
